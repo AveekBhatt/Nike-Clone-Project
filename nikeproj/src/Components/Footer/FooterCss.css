@@ -1,0 +1,37 @@
+.footer-wrap-column {
+    width: 17%;
+    margin-right: 98px;
+  }
+  .footer-wrap-desc-menu {
+    width: 50%;
+    display: flex;
+  }
+  .footer-wrap-desc {
+    max-width: 93%;
+    display: flex;
+    margin: 0 auto;
+  }
+  .footer-wrap-desc-menu.right {
+    text-align: right;
+  }
+  .footlist {
+    float: left;
+    padding: 0;
+    font-size: 20px;
+  }
+  .rightcountry {
+    position: relative;
+    left: 88%;
+  }
+  .footer-end {
+    max-width: 97%;
+    margin: 0 auto;
+    padding-top: 81px;
+    padding-bottom: 100px;
+  }
+  .footer-wrap-desc {
+    max-width: 93%;
+    display: flex;
+    margin: 0 auto;
+    border-top: 1px solid;
+}

@@ -1,0 +1,599 @@
+body {
+    font-family: 'NikeFont';
+    margin: 0px;
+    padding: 1px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  .logo-menu-img {
+    width: 67px;
+  }
+  .logo-menu-img {
+    width: 67px;
+    height: 52px;
+  }
+  .item-menu-data {
+    display: flex;
+  }
+  .menu {
+    display: flex;
+    max-width: 401px;
+  }
+  form {
+    margin-top: 15px;
+  }
+
+  li {
+    display: inline-block;
+    padding-right: 42px;
+    padding-left: 6px;
+  }
+  .item-menu {
+    width: 54%;
+  }
+  .item-menu.item-menu-logo {
+    width: 27%;
+    text-align: center;
+    display: inline-block;
+  }
+  .logo-menu {
+    display: block;
+    height: 100%;
+  }
+  * {box-sizing:border-box}
+
+  .prehome {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  .PREHOME-beta {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    left: 20px;
+    position: relative;
+    left: 0%;
+    
+  }
+  .jordan-prehome {
+    width: 47%;
+  }
+  .jordan-prehome.jordan-prehome-logo {
+    width: 47%;
+    display: inline-block;
+    text-align: left;
+  }
+  .list-info-data {
+    position: relative;
+    left: 27%;
+    font-size: 12px;
+  }
+  .jordon-logo-png {
+    display: inline-block;
+    height: 100%;
+  }
+  
+  .helpdrop li {
+    list-style: list;
+    display: block;
+    text-align: left;
+    padding-left: 29px;
+  }
+  .helpdrop {
+    list-style: list;
+    display: block;
+    position: absolute;
+    top: 33px;
+    z-index: 99999;
+    background-color: #fff;
+    right: 1px;
+    width: 182px;
+    border-radius: 9px;
+    color: gray;
+    padding-left: 0;
+    height: 204px;
+  }
+  .HelpDrop {
+    position: relative;
+  }
+  .helpdrop h2 {
+    text-align: left;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 9px;
+  }
+  .MenCats {
+    list-style: list;
+    display: block;
+    position: absolute;
+    top: 59px;
+    z-index: 99999;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 9px;
+    height: 302px;
+    left: 0px;
+  }
+  .MenCatsMenu {
+    max-width: 67%;
+    margin: 0 auto;
+    display: flex;
+    height: 289px;
+    padding-top: 22px;
+    text-align: left;
+  }
+
+.nav-container {
+  position: relative;
+  width: 100%;
+}
+.homenav {
+  margin: 0;
+  padding: 1px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+.menu {
+  display: flex;
+  max-width: 487px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.HEAD {
+  top: 0;
+  z-index: 1000;
+  position: sticky;
+}
+
+.WomenCats {
+  list-style: list;
+  display: block;
+  position: absolute;
+  top: 59px;
+  z-index: 99999;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 9px;
+  height: 302px;
+  left: 0px;
+}
+.WomenCatsMenu {
+  max-width: 67%;
+  margin: 0 auto;
+  display: flex;
+  height: 289px;
+  padding-top: 22px;
+  text-align: left;
+}
+
+.KidCats {
+  list-style: list;
+  display: block;
+  position: absolute;
+  top: 59px;
+  z-index: 99999;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 9px;
+  height: 302px;
+  left: 0px;
+}
+.KidCatsMenu {
+  max-width: 67%;
+  margin: 0 auto;
+  display: flex;
+  height: 289px;
+  padding-top: 22px;
+  text-align: left;
+}
+
+
+.SaleCats {
+  list-style: list;
+  display: block;
+  position: absolute;
+  top: 59px;
+  z-index: 99999;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 9px;
+  height: 164px;
+  left: 0px;
+}
+.SaleCatsMenu {
+  max-width: 67%;
+  margin: 0 auto;
+  display: flex;
+  height: 144px;
+  padding-top: 22px;
+  text-align: left;
+}
+.SaleCatsMenu ul {
+  padding-left: 95px;
+  width: 22.4%;
+}
+
+.faded {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+.slideshow-container-quote {
+  position: relative;
+  background: #f1f1f1f1;
+  max-width: 100%;
+  max-height: 140px;
+}
+
+/* Slides */
+.Slides {
+  padding: 6px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.Prevquote, .Nextquote {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.Nextquote {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.Prevquote:hover, .Nextquote:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.scroll {
+  animation-name: scroll-right-to-left;
+  animation-duration: 6000ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes scroll-right-to-left {
+  from {
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  to {
+    transform: translateX(-100%); /* End in the original position */
+  }
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.list-info-data {
+  position: relative;
+  left: 2%;
+  font-size: 12px;
+  float: right;
+}
+.menu-container {
+  display: flex;
+   width: 92%; 
+}
+
+.cartbutton img {
+  width: 37px;
+}
+
+.navbar-elements.left {
+  width: 65.2%;
+}
+
+.menu {
+  display: flex;
+  max-width: 887px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  float: right;
+}
+
+.navbar-elements.right {
+  width: 34%;
+}
+
+.cartbutton {
+  float: right;
+  margin-top: 8px;
+  position: relative;
+}
+.menu-container {
+  display: flex;
+  width: 97%;
+}
+.navbar-elements.right {
+  width: 33.7%;
+}
+.cartnumber {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  height: 32px;
+  width: 12px;
+  font-size: 12px;
+}
+
+.wishbutton {
+  float: right;
+  margin-top: 8px;
+  position: relative;
+}
+.wishbutton img {
+  width: 37px;
+}
+.cartbutton {
+  float: right;
+  margin-top: 8px;
+  position: relative;
+  margin-right: 11px;
+}
+
+.MenCats {
+  list-style: list;
+  display: block;
+  position: absolute;
+  top: 57px;
+  z-index: 99999;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 9px;
+  height: 302px;
+  left: 0px;
+}
+.WomenCats {
+  list-style: list;
+  display: block;
+  position: absolute;
+  top: 57px;
+  z-index: 99999;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 9px;
+  height: 302px;
+  left: 0px;
+}
+.KidCats {
+    list-style: list;
+    display: block;
+    position: absolute;
+    top: 57px;
+    z-index: 99999;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 9px;
+    height: 302px;
+    left: 0px;
+}
+@keyframes scroll {
+  from {
+    transform: translateX(100%); /* Start below the element */
+  }
+  to {
+    transform: translateY(0); /* Move to the original position */
+  }
+}
+.Slidequote {
+  margin: 0 auto;
+  overflow: hidden;
+  display: block;
+  width: 29%;
+}
+p.Slides.scroll {
+  text-align: right;
+  height: 100%;
+}
+.KidCatsMenu img {
+  width: 210px;
+}
+
+.KidCatsMenu ul {
+  width: 19.4%;
+}
+
+.KidCatsMenu {
+  max-width: 73%;
+  margin: 0 auto;
+  display: flex;
+  height: 289px;
+  padding-top: 22px;
+  text-align: left;
+}
+.KidCatsMenu li {
+  margin-bottom: 4px;
+}
+.MenCatsMenu img {
+  width: 210px;
+}
+
+.MenCatsMenu ul {
+  width: 19.4%;
+}
+.MenCatsMenu {
+  max-width: 73%;
+  margin: 0 auto;
+  display: flex;
+  height: 289px;
+  padding-top: 22px;
+  text-align: left;
+}
+.MenCatsMenu li {
+  margin-bottom: 4px;
+}
+
+
+.WomenCatsMenu img {
+  width: 210px;
+}
+
+.WomenCatsMenu ul {
+  width: 19.4%;
+}
+.WomenCatsMenu {
+  max-width: 73%;
+  margin: 0 auto;
+  display: flex;
+  height: 289px;
+  padding-top: 22px;
+  text-align: left;
+}
+.WomenCatsMenu li {
+  margin-bottom: 4px;
+}
+
+
+
+
+
+
+li#mc {
+  height: 47px;
+  margin-top: 14px;
+}
+
+.item-menu.item-menu-logo {
+  width: 27%;
+  text-align: center;
+  display: inline-block;
+  margin-top: -3px;
+}
+
+li#kc {
+  height: 47px;
+}
+.navbar-elements.left {
+  width: 65.2%;
+  height: 64px;
+}
+li#wc {
+  height: 47px;
+  margin-top: 14px;
+}
+.navbar-elements.left {
+  width: 65.2%;
+  height: 61px;
+  margin-top: 0;
+}
+.logo-menu-img {
+  width: 67px;
+  height: 56px;
+}
+.homenav {
+  margin: 0;
+  padding: 1px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  height: 63px;
+}
+
+.menu {
+  display: flex;
+  max-width: 887px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  float: right;
+  height: 60px;
+}
+.item-menu {
+  width: 63%;
+  height: 62px;
+}
+
+li#kc {
+  height: 47px;
+  margin-top: 14px;
+}
+
+li#sc {
+  height: 47px;
+  margin-top: 14px;
+}
+.item-menu-data {
+  display: flex;
+  height: 62px;
+  margin-top: 0;
+}
+
+.item-menu.item-menu-logo {
+  width: 27%;
+  text-align: center;
+  display: inline-block;
+  margin-top: -7px;
+  height: 58px;
+}
+.logo-menu-img {
+  width: 67px;
+  height: 65px;
+  padding-bottom: 19px;
+}
+.mencat a {
+  font-size: 20px;
+}
+.womcat a {
+  font-size: 20px;
+}
+.kidcat a {
+  font-size: 20px;
+}
+.salecat a {
+  font-size: 20px;
+}
+.logo-menu-img {
+  width: 67px;
+  height: 75px;
+  padding-bottom: 18px;
+}
+.MenCatsMenu li {
+  margin-bottom: 4px;
+  margin-right: 8px;
+}
+.WomenCatsMenu li {
+  margin-bottom: 4px;
+  margin-right: 56px;
+}
+.KidCatsMenu li {
+  margin-bottom: 4px;
+  margin-right: 10px;
+}

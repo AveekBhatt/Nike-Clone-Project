@@ -1,0 +1,155 @@
+.products-data img {
+    width: 158px;
+    margin-top: 20px;
+}
+
+li.products-data {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    height: 279px;
+}
+.container-main {
+    width: 100%;
+    padding-bottom: 89px;
+}
+
+.container-main-cont {
+    width: 50%;
+}
+.inside-container-main {
+    display: flex;
+    margin: 0 auto;
+}
+
+.inside-container-main {
+    display: flex;
+    margin: 0 auto; 
+    max-width: 82%;
+    height: auto;
+}
+.products-data-info {
+    width: 46%;
+}
+
+.products-data-info.right {
+    text-align: right;
+}
+
+.data {
+    margin-left: 7px;
+}
+
+.information-total-cred {
+    width: 50%;
+}
+.information-total {
+    display: flex;
+    width: 100%;
+}
+.sumtotal-beg {
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.information-total-cred-info {
+    margin-left: 8px;
+}
+.information-total-cred-data {
+    float: right;
+    margin-right: 20px;
+}
+.total-data {
+    display: flex;
+    width: 100%;
+}
+.total-data-info {
+    width: 50%;
+}
+.total-data-info.right h3 {
+    margin-right: 21px;
+}
+
+.total-data-info.right {
+    text-align: right;
+}
+
+.total-data-info.left h3 {
+    margin-left: 9px;
+}
+button.checkout {
+    width: 100%;
+    height: 57px;
+}
+.information-total {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+.total-data {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+.sumtotal {
+    border: 1px solid;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.inside-right {
+    position: sticky;
+    z-index: 1;
+    top: 20px;
+}
+button.decincre {
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 1px;
+}
+.container-header {
+    text-align: center;
+    padding-bottom: 67px;
+}
+.products-data img {
+    width: 158px;
+    margin-top: 24px;
+}
+
+.products-data-info {
+    width: 50%;
+}
+.container-header {
+    text-align: center;
+    padding-bottom: 67px;
+    padding-top: 40px;
+}
+.container-header h1 {
+    font-size: 51px;
+}
+.empty-cart {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.empty-cart img {
+    width: 639px;
+}
+
+li.products-data {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    height: 287px;
+  }

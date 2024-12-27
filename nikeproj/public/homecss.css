@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'NikeFont';
+    src: url('./futura_condensed_bold-webfont.woff') format('woff') ,
+    url('futura_condensed_bold-webfont.woff2') format('woff');
+}

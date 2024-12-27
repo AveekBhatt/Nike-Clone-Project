@@ -1,0 +1,347 @@
+.Banner-Container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 92%;
+    text-align: center;
+}
+.Banner-Container img {
+    width: 100%;
+}
+.shows-benefits {
+    display: inline-flex;
+    overflow: hidden;
+    height: 586px;
+    width: 1838px;
+    margin-top: 10px;
+    scroll-behavior: smooth;
+    position: relative;
+    left: 3.5%;
+    max-width: 92%;
+  }
+
+  #contents-benefits {
+    overflow: hidden;
+    display: inline-flex;
+    scroll-behavior: smooth;
+    height: 585px;
+    max-width: 100%;
+  }
+
+  .element-benefits {
+    position: relative;
+    height: auto;
+    width: 33%;
+    margin-right: 12px;
+  }
+
+  #imgs-benefits {
+    padding-right: 0px;
+    height: auto;
+    width: 482px;
+  }
+
+  #BtnBen1 {
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    position: relative;
+    top: 11%;
+    color: white;
+    border-radius: 50%;
+    border: 1px;
+    background-color:#91b7bb;
+  }
+  #BtnBen2 {
+    border: 1px;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    position: relative;
+    top: 11%;
+    color: white;
+    border-radius: 50%;
+    background-color:#91b7bb;
+  }
+  #BtnBen1:hover {
+    opacity: 0.8;
+  }
+  #BtnBen2:hover {
+    opacity: 0.8;
+  }
+
+  .CatBtnFot {
+    width: 87px;
+    text-align: center;
+    height: 33px;
+    border-radius: 55px;
+    border: 1px;
+  }
+
+  .shows-benefits {
+    display: inline-flex;
+    overflow: hidden;
+    height: 586px;
+    width: 1838px;
+    margin-top: 10px;
+    scroll-behavior: smooth;
+    position: relative;
+    left: 3.8%;
+    max-width: 92%;
+}
+
+.shows-info-small {
+    padding-top: 70px;
+    margin: 0 auto;
+    display: flex;
+    max-width: 92%;
+    text-align: center;
+}
+.shows-category {
+    display: inline-flex;
+    overflow: hidden;
+    height: 285px;
+    width: 1838px;
+    margin-top: 10px;
+    scroll-behavior: smooth;
+    position: relative;
+    left: 3.5%;
+    max-width: 92%;
+  }
+
+  #contents-category {
+    overflow: hidden;
+    display: inline-flex;
+    scroll-behavior: smooth;
+    height: 285px;
+    max-width: 100%;
+  }
+
+  .element-category {
+    position: relative;
+    height: 286px;
+    width: 33%;
+    margin-right: 12px;
+    background-color: black;
+  }
+  #imgs-category {
+    max-width: 350px;
+    padding-right: 0px;
+    max-width: 813px;
+    height: 100%;
+    opacity: 0.7;
+  }
+
+  .contents-details-category {
+    position: absolute;
+    bottom: 20px;
+    left: 5%;
+    text-align: center;
+  }
+
+  .CatBtnFot {
+    width: 87px;
+    text-align: center;
+    height: 33px;
+    border-radius: 55px;
+    border: 1px;
+  }
+  .shows-info-small {
+    padding-top: 70px;
+    margin: 0 auto;
+    display: flex;
+    max-width: 92%;
+    text-align: center;
+    left: 20%;
+  }
+  .shows-info-small-data {
+    width: 50%;
+  }
+  .shows-info-small-data.left {
+    text-align: left;
+  }
+  .shows-info-small-data.right {
+    text-align: right;
+    padding-right: 76px;
+  }
+  #BtnCat1 {
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    position: relative;
+    top: 11%;
+    color: white;
+    border-radius: 50%;
+    border: 1px;
+    background-color:#91b7bb;
+  }
+  #BtnCat2 {
+    border: 1px;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    position: relative;
+    top: 11%;
+    color: white;
+    border-radius: 50%;
+    background-color:#91b7bb;
+  }
+  #BtnCat1:hover {
+    opacity: 0.8;
+  }
+  #BtnCat2:hover {
+    opacity: 0.8;
+  }
+  
+  .shows-benefits {
+    display: inline-flex;
+    overflow: hidden;
+    height: 586px;
+    width: 1838px;
+    margin-top: 10px;
+    scroll-behavior: smooth;
+    position: relative;
+    left: 3.5%;
+    max-width: 92%;
+  }
+
+  #contents-benefits {
+    overflow: hidden;
+    display: inline-flex;
+    scroll-behavior: smooth;
+    height: 585px;
+    max-width: 100%;
+  }
+
+  .element-benefits {
+  position: relative;
+  height: auto;
+  width: 33%;
+  margin-right: 12px;
+  background-color: black;
+}
+#imgs-benefits {
+  padding-right: 0px;
+  height: auto;
+  opacity: 0.7;
+  width: 482px;
+}
+
+.contents-details-benefits {
+  position: absolute;
+  bottom: 20px;
+  left: 5%;
+  text-align: left;
+  color: white;
+  bottom: 17%;
+  text-shadow: 1px 1px black;
+}
+
+  #BtnBen1 {
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    position: relative;
+    top: 11%;
+    color: white;
+    border-radius: 50%;
+    border: 1px;
+    background-color:#91b7bb;
+  }
+  #BtnBen2 {
+    border: 1px;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    position: relative;
+    top: 11%;
+    color: white;
+    border-radius: 50%;
+    background-color:#91b7bb;
+  }
+  #BtnBen1:hover {
+    opacity: 0.8;
+  }
+  #BtnBen2:hover {
+    opacity: 0.8;
+  }
+  .contents-details-benefits h2 {
+    margin-top: 0;
+  }
+  .contents-details-benefits h3 {
+    margin-bottom: 0;
+  }
+
+  #imgs-exclusives {
+    padding-right: 0px;
+    height: auto;
+    /* opacity: 0.7; */
+    width: 482px;
+}
+
+  .experience-wrap {
+    padding-top: 24px;
+    height: 363px;
+  }
+  .experience-wrap-column {
+    width: 15%;
+}
+
+#contents {
+  overflow: hidden;
+  display: inline-flex;
+  scroll-behavior: smooth;
+}
+.contents-details {
+  padding-left: 2px;
+  font-size: 21px;
+}
+
+.shows {
+  display: inline-flex;
+  overflow: hidden;
+  height: 671px;
+  width: 1838px;
+  margin-top: 10px;
+  scroll-behavior: smooth;
+  position: relative;
+  left: 3.6%;
+  max-width: 92.3%;
+}
+.CatBtnFot {
+  width: 107px;
+  text-align: center;
+  height: 33px;
+  border-radius: 55px;
+  border: 1px;
+}
+.contents-details {
+  padding-left: 2px;
+  font-size: 21px;
+  width: 213px;
+}
+
+.experience-wrap-menu {
+  max-width: 92%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  font-size: 24px;
+  margin: 0 auto;
+  height: 298px;
+  padding-top: 24px;
+  text-align: left;
+}
+
+#BtnCat1 {
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+  position: relative;
+  top: 11%;
+  color: white;
+  border-radius: 50%;
+  border: 1px;
+  background-color: #91b7bb;
+  margin-right: 7px;
+}

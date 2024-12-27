@@ -1,0 +1,434 @@
+@font-face {
+  font-family: 'NikeFont';
+  src: url('./futura_condensed_bold-webfont.woff') format('woff') ,
+  url('futura_condensed_bold-webfont.woff2') format('woff');
+}
+
+body {
+    margin: 0;
+  }
+  
+  .sides {
+    margin: 0;
+    padding: 0;
+    width: 263px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0; /* Make it sticky at the top */
+    height: 100vh; /* Ensure full viewport height */
+    overflow-y: scroll; /* Allow scrolling if content overflows */
+    z-index: 1; /* Bring it to the front */
+  }
+  
+  
+  
+  .Categories-list ul {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  
+  div.content {
+    padding: 18px 16px;
+    height: auto;
+    width: 1552px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  .cats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: auto;
+  }
+  .cats-imag {
+    margin-right: 9px;
+  }
+  .cats-imag img {
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    overflow: visible;
+    height: auto;
+    max-width: 92.7%;
+    margin: 0 auto;
+    padding-bottom: 54px;
+    padding-top: 25px;
+    border-bottom: 1px solid;
+}
+
+.sides::-webkit-scrollbar {
+  width: 8px; /* Reduce the scrollbar width */
+}
+
+.sides::-webkit-scrollbar-track {
+  background: #e0e0e0; /* Track background color */
+  border-radius: 10px; /* Optional: Rounded track */
+  margin-top: 17px; /* Add space at the top */
+  margin-bottom: 10px; /* Add space at the bottom */
+}
+
+.sides::-webkit-scrollbar-thumb {
+  background: #888; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded corners for thumb */
+}
+
+.sides::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color when hovered */
+}
+
+span {
+  font-size: 19px;
+}
+
+li.dropdown {
+  margin-top: 19px;
+}
+
+ul#Category-dropdown {
+  font-size: 19px;
+  padding-left: 0;
+  width: 88px;
+}
+
+.dropdown-Category li {
+  padding-left: 0;
+  padding-right: 6px;
+}
+
+.dropdown-Price {
+  font-size: 19px;
+  margin-left: 39px;
+  padding-left: 0;
+  width: 91%;
+}
+
+.dropdown-Price li {
+  padding-left: 0;
+  padding-right: 6px;
+}
+
+.dropdown-Sale{
+  font-size: 19px;
+  margin-left: 35px;
+  padding-left: 0;
+  width: 88px;
+}
+
+.dropdown-Sale li {
+  padding-left: 0;
+  padding-right: 6px;
+}
+
+
+.dropdown-sizes li {
+  padding-left: 0;
+  padding-right: 6px;
+}
+
+input#sizes {
+  width: 33px;
+  height: 31px;
+}
+
+.dropdown-sizes {
+  font-size: 19px;
+  margin-left: 35px;
+  padding-left: 0;
+  width: 143px;
+}
+
+.dropdown-Type{
+  font-size: 19px;
+  margin-left: 35px;
+  padding-left: 0;
+  width: 136px;
+}
+
+.dropdown-Type li {
+  padding-left: 0;
+  padding-right: 6px;
+}
+
+.dropdown-colour {
+  font-size: 19px;
+  margin-left: 37px;
+  padding-left: 0;
+  width: 77px;
+}
+
+.dropdown-colour li {
+  padding-left: 0;
+  padding-right: 6px;
+}
+
+
+
+.dropdown-Category input {
+  margin-right: 6px;
+}
+
+.dropdown-Price input {
+  margin-right: 6px;
+}
+
+.dropdown-Sale input {
+  margin-right: 6px;
+}
+
+.dropdown-Type input {
+  margin-right: 6px;
+}
+
+.dropdown-colour input {
+  margin-right: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 0px; 
+}
+
+.sidebar::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 0px;
+}
+.dropdown-Type {
+  font-size: 19px;
+  margin-left: 35px;
+  padding-left: 0;
+  width: 146px;
+}
+
+video {
+  width: 100%;
+}
+.sales-info {
+  position: absolute;
+  width: 92px;
+  bottom: 84%;
+  left: 81%;
+}
+.cats-imag-show {
+  position: relative;
+}
+.categories-inside {
+  max-width: 93%;
+  margin: 0 auto;
+  padding-top: 43px;
+}
+
+.categories-inside h3 {
+  color: gray;
+}
+
+.Categories-list {
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 0px;
+  width: 100%;
+  padding-left: 0;
+  border-bottom: 1px solid;
+}
+.Categories-list li {
+  padding-left: 0;
+}
+
+.Categories-list ul {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+  width: 147px;
+}
+
+li.dropdown {
+  margin-top: 19px;
+  padding-left: 0;
+  border-bottom: 1px solid;
+}
+
+ul#Category-dropdown {
+  font-size: 19px;
+  padding-left: 0;
+  width: 88px;
+  margin-left: 0;
+}
+
+li.dropdown {
+  margin-top: 19px;
+  padding-left: 0;
+  margin-left: 0;
+  width: 100%;
+  padding-right: 0;
+}
+
+.dropdown-Price {
+  font-size: 19px;
+   margin-left: 0px; 
+  padding-left: 0;
+  width: 91%;
+}
+
+.dropdown-Sale {
+  font-size: 19px;
+  margin-left: 0px;
+  padding-left: 0;
+  width: 88px;
+}
+.dropdown-sizes {
+  font-size: 19px;
+  margin-left: 0px;
+  padding-left: 0;
+  width: 214px;
+}
+
+.dropdown-Type {
+  font-size: 19px;
+  margin-left: 0px;
+  padding-left: 0;
+  width: 146px;
+}
+
+.dropdown-colour {
+  font-size: 19px;
+  margin-left: 0px;
+  padding-left: 0;
+  width: 77px;
+}
+
+.Categories-list ul {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+  width: 153px;
+}
+
+.product-info img {
+  width: 20px;
+}
+
+.cats-img-details {
+  width: 100%;
+}
+
+.subcatsdata {
+  margin: 0 auto;
+  display: flex;
+  max-width: 100%;
+  text-align: center;
+}
+
+.product-info.left {
+  text-align: left;
+  padding-left: 6px;
+}
+.product-info.right {
+  text-align: right;
+}
+.product-info img {
+  width: 32px;
+  padding-top: 19px;
+  margin-right: 11px;
+}
+.nodata-text {
+  text-align: center;
+  margin: 0 auto;
+}
+
+button.addcart {
+  background: url(shopping-bag\(1\).png) no-repeat;
+  width: 36px;
+  height: 35px;
+  background-size: 95%;
+  margin-right: 7px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.product-info img {
+  width: 33px;
+  padding-top: 20px;
+  margin-right: 11px;
+}
+
+button.size-btn {
+  width: 42px;
+  height: 44px;
+  margin-right: 24px;
+  border-radius: 50%;
+  border: 1px;
+}
+.sizes-div {
+  margin-left: 6px;
+}
+.product-info.left {
+  text-align: left;
+  padding-left: 6px;
+  width: 73%;
+}
+.product-info.right {
+  text-align: right;
+  float: right;
+  width: 27%;
+}
+
+button.addwish {
+  background: url(../Assets/wishlist.png) no-repeat;
+  width: 36px;
+  height: 35px;
+  background-size: 95%;
+  margin-right: 7px;
+  border: 0px;
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+button.removewish {
+  background: url(../Assets/favourite.png) no-repeat;
+  width: 36px;
+  height: 35px;
+  background-size: 95%;
+  margin-right: 7px;
+  border: 0px;
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+button#sizes {
+  width: 46px;
+  height: 39px;
+  margin-bottom: 11px;
+  background-color: white;
+  border: 1px solid #bfbfbf;
+}
+
+.val4 {
+  width: 46px;
+  height: 39px;
+  margin-bottom: 11px;
+  background-color: white;
+  border: 1px solid #bfbfbf;
+}
+
+.val4:focus {
+  border: 3px solid black;
+}
+
+.val4:not(:focus) {
+  border: 1px solid #bfbfbf;
+}
+.dropdown-Type {
+  font-size: 19px;
+  margin-left: 0px;
+  padding-left: 0;
+  width: 148px;
+}
